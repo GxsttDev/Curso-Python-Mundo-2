@@ -6,11 +6,11 @@ Idade = AnoAtual - AnoNasc
 
 if Idade <= 9:
     print ("Sua categoria é: MIRIM")
-elif Idade > 9 and Idade <= 14:
+elif Idade <= 14:
     print ("Sua categoria é: INFANTIL")
-elif Idade > 14 and Idade <= 19:
+elif Idade <= 19:
     print ("Sua categoria é: JUNIOR")
-elif Idade > 19 <= 20:
+elif Idade <= 20:
     print ("Sua categoria é: SÊNIOR")
 else:
-    
+    print ("Sua categoria é: MASTER")
