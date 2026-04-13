@@ -1,5 +1,6 @@
+print ("{:=^40}".format(" LOJA GUSTAVO "))
 PrecoNormal = int(input("Digite o preço do produto: "))
-print ("{:=^40}".format("LOJA GUSTAVO"))
+
 print ("[1] Dinheiro ou Cheque: ")
 print ("[2] A vista no Cartão ")
 print ("[3] 2x no Cartão ")
@@ -18,4 +19,4 @@ elif Pagamento == 4:
     PrecoFinal = PrecoNormal * 1.20
     print (f"Com o juros da parcela sua compra custara: {PrecoFinal:.2f}")
 
-print ("===== OBRIGADO, VOLTE SEMPRE =====")
+print ("{:=^40}".format(" OBRIGADO - VOLTE SEMPRE! "))
