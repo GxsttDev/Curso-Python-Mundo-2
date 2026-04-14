@@ -21,6 +21,8 @@ elif Pagamento == 4:
     TotParcela = int(input("Quantas parcelas? "))
     Parcela = PrecoFinal / TotParcela
     print (f"Sua conta sera parcelada em {TotParcela}x de R${Parcela:.2f} com JUROS")
-    print (f"Sua compra de R${PrecoNormal}, vai custar R${PrecoFinal:.2f}")
-    
+    print (f"Sua compra de R${PrecoNormal}, vai custar R${PrecoFinal:.2f}") 
+else: 
+    Total = 0 
+    print ("Opcao Invalida de pagamento, tente novamente")   
 print ("{:=^40}".format(" OBRIGADO, VOLTE SEMPRE! "))
