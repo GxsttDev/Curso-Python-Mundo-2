@@ -14,9 +14,13 @@ elif Pagamento == 2:
     PrecoFinal = PrecoNormal * 0.95
     print (f"Sua compra de {PrecoNormal}, vai custar {PrecoFinal:.2f}")
 elif Pagamento == 3:
-    print (f"Sua compra vai custar: {PrecoNormal}")
+    Parcela = PrecoNormal / 2 
+    print (f"Sua compra sera parcelada em 2x de R${Parcela:.2f}, total de R${PrecoNormal}")
 elif Pagamento == 4:
     PrecoFinal = PrecoNormal * 1.20
-    print (f"Com o juros da parcela sua compra custara: {PrecoFinal:.2f}")
-
-print ("{:=^40}".format(" OBRIGADO - VOLTE SEMPRE! "))
+    TotParcela = int(input("Quantas parcelas? "))
+    Parcela = PrecoFinal / TotParcela
+    print (f"Sua conta sera parcelada em {TotParcela}x de R${Parcela:.2f} com JUROS")
+    print (f"Sua compra de R${PrecoNormal}, vai custar R${PrecoFinal:.2f}")
+    
+print ("{:=^40}".format(" OBRIGADO, VOLTE SEMPRE! "))
