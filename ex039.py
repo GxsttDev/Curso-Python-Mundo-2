@@ -11,4 +11,5 @@ elif Idade < 18:
     FaltaAnos = 18 - Idade
     print (f"Ainda Falta {FaltaAnos} anos para você se alistar, você ira se alistar em:  {AnoAlistamento}")
 else:
-    print (f"O seu ano de alistamento já passou, ele era em: {AnoAlistamento}")
+    PassouAnos = Idade - 18
+    print (f"O seu ano de alistamento já passou faz {PassouAnos} anos, ele era em: {AnoAlistamento}")

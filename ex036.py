@@ -1,5 +1,5 @@
-ValorCasa = int(input("Qual o valor da casa: "))
-Salario = int(input("Qual o seu salario: "))
+ValorCasa = float(input("Qual o valor da casa: R$"))
+Salario = float(input("Qual o seu salario: R$ "))
 Anos = int(input("Em quantos anos você vai pagar: "))
 Prestacoes = ValorCasa / (Anos * 12)
 
